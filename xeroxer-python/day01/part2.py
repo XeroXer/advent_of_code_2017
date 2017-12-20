@@ -1,6 +1,8 @@
-#!/bin/python
+#!/usr/bin/env python
+"""Advent of Code 2017: Day 01, Part 2"""
 
 def main():
+    """Main function"""
     file = open('input.txt', 'r')
     line = file.readline().rstrip('\n')
     length = len(line)
